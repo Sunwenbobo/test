@@ -370,7 +370,7 @@ nextButton:'.swiper-button-next',
 <script>
     $(document).ready(function () {
         var clientHeight = $(window).height();
-        $(window).scroll(function () {
+        $(this).scroll(function () {
             var height=  $('html,body').scrollTop()
             $('.animate').each(function (){
                 var h = $(this).offset().top-clientHeight;
